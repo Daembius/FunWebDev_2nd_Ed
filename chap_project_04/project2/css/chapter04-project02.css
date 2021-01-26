@@ -1,0 +1,113 @@
+  /* --HEADER-- */
+
+#mainMenu {
+    background-color: #263238;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    font-size: 1.2em;
+    text-align: right;
+    padding: 0.5rem 5.5rem 0.5rem 5.5rem;
+  }
+
+nav ul li { list-style: none; display: inline; }
+
+a { color: #03A9F4; }
+
+a:hover { color: white; background-color: #FF3D00; }
+
+h1 {
+  background-image: url(../images/header-background.png);
+  background-repeat: repeat;
+  color: white; font-size: 2em;
+  padding: 0.5rem 5.5rem 0.5rem 5.5rem;
+}
+span { color: red; }
+
+#secondaryMenu {
+  background-color: #607D8B;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 1.2em;
+  padding: 0.5rem 5.5rem 0.5rem 5.5rem;
+}
+
+  /* --MAIN PART-- */
+
+article {
+  background-color: #ECEFF1;
+  padding: 1rem 0.3rem 1rem 0.3rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* #mainContact>div */
+article>div {
+  background-color: white;
+  margin: 0rem 5rem 1rem 5rem;
+  text-align: center;
+}
+#mainContact img {
+  border: solid 1pt black;
+  margin: 20px auto 5px auto;
+  padding: 10px;
+}
+article>section {
+  background-color: white;
+  margin: 0.5rem 5rem 0.5rem 5rem;
+  /* padding: 1rem; */
+}
+
+#mainContact ul { background-color: #607D8B; padding: 0.3rem}
+/* (Verified - Don't touch) */
+
+#mainContact ul li {
+  background-color: #FF3D00;
+  /* list-style: none; */
+  display: inline;
+  padding: 0.1rem;
+}
+
+#mainContact li a { color: white; }
+
+/* Icons  for list bullets */
+
+.actionEdit { list-style-image: url('../images/edit.png') ; }
+
+article p {
+  padding: 1rem;
+}
+h3 {
+  color: white;
+  background-image: url(../images/header-background.png);
+  padding: 10px;
+}
+
+
+
+
+a[href^="mailto"] {
+  background: url('../images/email.png') no-repeat 0 3px;
+  padding-left: 1em;
+}
+a[href^="tel"] {
+  background: url('../images/call.png') no-repeat 0 3px;
+  padding-left: 1em;
+}
+
+
+figure img { width: 107rem; height: auto; }
+
+/* -- FOOTER -- */
+footer>p {
+  background-color: #263238;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 1.2em;
+  padding: 0.5rem 5rem 0.2rem 5rem;
+}
+#copyright {
+    color: white; font-size: 1em;
+    padding: 0.2rem 5rem 0.5rem 5rem;
+}

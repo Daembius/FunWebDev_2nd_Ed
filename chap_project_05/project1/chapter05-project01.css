@@ -1,0 +1,87 @@
+/* general text formatting */
+
+
+body {
+   font-family: "Roboto", Verdana, Arial, sans-serif;
+   font-size: 100%;
+   background-color: #ECEFF1;
+}
+
+section {
+   background-color: white;
+   margin: 1em 4em 1em 4em;
+   border: solid 1pt black;
+
+}
+section h3 {
+  color: white;
+  padding: 0.75rem;
+  background-color: #263238;
+}
+
+.status {
+    border-radius: 0.25rem;
+    padding: 3px;
+    color: white;
+
+}
+.status-processing {
+    background-color:    #E65100;
+}
+.status-shipped {
+    background-color:   #4CAF50;
+}
+.status-pending {
+    background-color:    #03A9F4;
+}
+
+
+
+/* table formatting */
+
+table {
+  padding: 10px;
+}
+
+table caption {
+	background-color: #607D8B;
+	color: white;
+
+}
+
+td {
+  padding: 5px;
+}
+
+/* form formatting */
+
+
+caption, legend {
+	background-color: #607D8B;
+	color: white;
+  margin: auto;
+  width: 95%;
+  padding: 5px;
+  text-align: center;
+}
+
+fieldset {
+
+  margin: auto;
+  width: 95%;
+  padding: 10px;
+}
+
+input[type=submit] {
+   background-color: #673AB7;
+    color: white;
+    border-style: none;
+
+}
+input[type=submit]:hover {
+    background-color: #6200EA;
+}
+
+/* p {
+  padding: 2px;
+} */

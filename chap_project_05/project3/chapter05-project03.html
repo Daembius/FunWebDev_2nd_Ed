@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+   <meta charset="utf-8">
+   <title>Chapter 5</title>
+   <link rel="stylesheet" href="reset.css" />
+   <link rel="stylesheet" href="chapter05-project03.css" />
+</head>
+<body>
+<header>
+     <h1>Share Your Travels</h1>
+     <p>let us know where you've been</p>
+</header>
+<main>
+   <section>
+   <form action="http://www.randyconnolly.com/tests/process.php" method="post">
+     <h2>Photo Details</h2>
+     <p>
+       <label for="f-title">Title:</label>
+       <br>  <input type="text" placeholder="Give a title to your photo" name="titre" id="f-title">
+     </p>
+     <p>
+       <label for="f-description">Description:</label>
+       <br>  <textarea placeholder="Describe your photo" name="description" rows="8" cols="80"></textarea>
+     </p>
+     <table>
+       <tr>
+         <td>Continent</td>
+         <td>Copyright?</td>
+       </tr>
+       <tr>
+         <td>
+           <select placeholder="Choose Continent" name="continents">
+             <option>North America</option>
+             <option>South America</option>
+             <option>Europe</option>
+             <option>Asia</option>
+         </select> </td>
+         <td>
+           <input type="radio" name="copyright" value="1">All right reserved <br>
+           <input type="radio" name="Copyright" value="2">Creative Communs
+         </td>
+       </tr>
+       <tr>
+         <td>Country</td>
+         <td>Creative Commons Types:</td>
+       </tr>
+       <tr>
+         <td><select class="" name="country">
+           <option value="Canada">Canada</option>
+           <option value="USA">USA</option>
+           <option value="Argentina">Argentina</option>
+           <option value="Rosbifs">Grosse Bretagne</option>
+           <option value="France">France</option>
+           <option value="Hong Kong">Hong Kong</option>
+           <option value="Japan">Japan</option>
+         </select> </td>
+
+         <td>
+           <input type="checkbox" name="creative[]" value="1" id="attribution">Attribution<br>
+           <input type="checkbox" name="creative[]" value="2" id="non-commercial">Non Commercial<br>
+           <input type="checkbox" name="creative[]" value="3" id="non-derivative">Non Derivative Works
+         </td>
+       </tr>
+     </table>
+     <p>
+       <label for="f-license">I accept the software license</label>
+       <input type="checkbox" name="license" id="f-license" value="">
+     </p>
+     <table>
+       <tr>
+         <td>Rate this photo:</td>
+         <td>Date Taken:</td>
+       </tr>
+       <tr>
+         <td><input type="number" min="1" max="10" name="rate"> </td>
+         <td><input type="Date" name="taken"> </td>
+       </tr>
+       <tr>
+         <td>Color Collection:</td>
+         <td>Time Taken:</td>
+       </tr>
+       <tr>
+         <td><input type="color" name="collection" value=""> </td>
+         <td><input type="time" name="t-taken"></td>
+       </tr>
+     </table>
+     <p>
+       <input type="submit" name="submit" value="Submit"><input type="reset" name="clear" value="Clear Form">
+     </p>
+   </form>
+   </section>
+</main>
+
+
+</body>
+</html>

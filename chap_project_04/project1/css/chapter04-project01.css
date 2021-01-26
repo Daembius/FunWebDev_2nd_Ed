@@ -1,0 +1,77 @@
+body {
+  background-color: #E8EAF6;
+}
+/* Header & Footer */
+
+header, footer {
+  color: white;
+  background-color: #1A237E;
+  margin: 0em 4em 1em 4em;
+  padding: 1.5em 1em 1.5em 1em;
+}
+header h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-variant: small-caps;
+  font-size: 1.5em;
+  font-family: "Montserrat", "Acme", Tahoma, sans-serif;
+}
+header p {
+  font-style: italic;
+  font-weight: 300;
+  font-variant: normal;
+  font-size: 0.875em
+}
+nav {
+  background-color: #3F51B5;
+  padding: 0.25em 0em 0.25em 0em;
+}
+nav ul li { list-style: none; display: inline;
+}
+a:link {
+  color: #00B0FF;
+  text-decoration: underline;
+}
+a:hover {
+  color: white;
+  background-color: #F50057;
+}
+
+/* 3 Blocks du centre */
+main {
+  background-color: white;
+  margin: 1.25em 4em 1.25em 4em;
+  padding: 1em;
+  font-family: "Georgia", "Times", Tahoma, serif;
+}
+
+section {
+  border-width: thin;
+  border-style: solid;
+  border-color: #7986CB;
+  margin: 1em;
+}
+
+h3 {
+  background-color: #7986CB;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  font-family: "Montserrat", "Acme", Tahoma, sans-serif;
+  text-transform: uppercase;
+  padding: 1.5em 1em 1.5em 1em;
+}
+
+div {
+  padding: 0.25em 1em 0.25em 1em;
+}
+
+figcaption {
+  background-color: #C5CAE9;
+  color: #1A237E;
+  padding: 1em 1em 1em 1em;
+}
+time {
+  color: #FF80AB;
+}

@@ -1,0 +1,18 @@
+body {
+  background-image: url('../images/art-background4.jpg');
+  background-size: cover;
+}
+
+-- Header Window --
+
+header {
+  width: 500px;
+  height: 500px;
+  color: white;
+  background-color: grey;
+  /* background-color: rgba(33 , 33 , 33 , 0.5); */
+}
+
+main{
+  color; black;
+}

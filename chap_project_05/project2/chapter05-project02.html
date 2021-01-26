@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Chapter 5</title>
+   <link rel="stylesheet" href="chapter05-project02.css" />
+</head>
+<body>
+<form method="get" action="http://www.randyconnolly.com/tests/process.php" >
+    <fieldset>
+       <legend>Advanced Art Work Search</legend>
+
+        <div id="searchBox">
+          <input type="text" name="search" placeholder="Search Filter" value="">
+          Subject:
+          <input type="radio" name="subject"  value="history"><label for="history">History</label>
+          <input type="radio" name="subject" value="person"><label for="person">Person</label>
+          <input type="radio" name="subject" value="landscape"><label for="landscape">landscape </label>
+          <label for="genre">
+            <select class="" name="genre">
+              <option value="female">Female</option>
+              <option value="male">Male</option>
+            </select>
+            <input type="button" name="filter" value="Filter" />
+          </label>
+        </div>
+        <div id="settingsBox">
+          <select class="" name="action">
+            <option value="bulk">Bulk Actions</option>
+            <option value="separated">Separated Actions</option>
+          </select>
+          <input type="submit" name="" value="Apply To All">
+        </div>
+        <div id="paintingBox">
+          <table>
+            <caption>Paintings</caption>
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Artist</th>
+                <th>Year</th>
+                <th>Genre</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><input id="f-paintings" type="checkbox" name="index[]" value="1">
+                <label for="f-paintings"><img src="images/05030.jpg" alt="Mort de Marat"> Death of Marat</label> </td>
+                <td>David, Jacques-Louis</td>
+                <td>1793</td>
+                <td>Romanticism</td>
+                <td>
+                  <button type="button" name="button">
+                  <img src="images/archive.png" alt="Archive Icon">
+                  <img src="images/collection.png" alt="Collection Icon">
+                  <img src="images/delete.png" alt="Delete"><img src="images/edit.png" alt="Edit"> </button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="f-paintings">
+                    <input type="checkbox" name="index[]" value="2" id="f-paintings">
+                    <img src="images/06010.jpg" alt="Portrait d'Éléanor de Tolède"> Portrait of Eleanor of Toledo</label>
+                </td>
+                <td>Bronzino, Agnolo</td>
+                <td>1545</td>
+                <td>Mannerism</td>
+                <td>
+                  <button type="button" name="button"><img src="images/archive.png" alt="Archive Icon"></button>
+                  <button type="button" name="button"><img src="images/collection.png" alt="Collection Icon"></button>
+                  <button type="button" name="button"><img src="images/delete.png" alt="Delete"></button>
+                  <button type="button" name="button"><img src="images/edit.png" alt="Edit"> </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </fieldset>
+</form>
+</body>
+</html>
