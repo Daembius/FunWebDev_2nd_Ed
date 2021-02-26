@@ -10,6 +10,7 @@ function Book (isbn, title, description, universities) {
   this.universities = universities;
 
 // Add a function named putputCard () as a prototype function to the Book function object:
+
   Book.prototype.outputCard = function () {
 
     document.write('<div class="mdl-cell mdl-card mdl-shadow--2dp">');
