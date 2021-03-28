@@ -29,30 +29,18 @@ checkForEmptyFields);
 }
 /* initialize handlers once page is ready */
 window.addEventListener("load", init);
+
 /* ensures form fields are not empty */
 function checkForEmptyFields(e) {
   let fields = document.getElementsByClassName("required");
+
   // loop thru the input elements looking for empty values
-  let fieldList = [];
+
   for (let i=0; i<fields.length; i++) {
     if (fields[i].value == null || fields[i].value == "") {
       // since a field is empty prevent the form submission
-      console.log(fields[i]);
       e.preventDefault();
-      fieldList.push(fields[i]);
-      alert("il manque un truc");
+      fields[i].className = "error";
     }
   }
-  // now set up the error message
-  /*
-  let msg = "The following fields can't be empty: ";
-  if (fieldList.length > 0) {
-    for (i=0; i<fieldList.length; i++) {
-    msg += fieldList[i].id + ",";
-  }
-
-  errorArea.innerHTML = "<p>" + msg + "</p>";
-  errorArea.className = "error";
-  }
-  */
 }
