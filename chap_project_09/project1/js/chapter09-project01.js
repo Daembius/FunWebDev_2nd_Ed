@@ -34,8 +34,8 @@ window.addEventListener("load", function(){
       if (fields[i].value == null || fields[i].value == "") {
         // since a field is empty prevent the form submission
         e.preventDefault();
-        // fields[i].className = "error";
         fields[i].classList.toggle("error");
+
       }
     }
   }
